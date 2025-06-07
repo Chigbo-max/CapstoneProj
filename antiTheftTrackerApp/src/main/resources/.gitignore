@@ -1,0 +1,6 @@
+src/main/resources/application.properties
+src/main/resources/keys/client_secret.json
+src/main/resources/keys/service_account_config.json
+src/main/resources/policies/vault_policy.json
+src/main/resources/firebase/firebase-service-account-key.json
+src/main/resources/firebase/google-services.json

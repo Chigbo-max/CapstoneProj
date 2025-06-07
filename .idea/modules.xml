@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/CapstoneProj.iml" filepath="$PROJECT_DIR$/.idea/CapstoneProj.iml" />
-      <module fileurl="file://$PROJECT_DIR$/antiTheftTrackerApp/antiTheftTrackerApp.iml" filepath="$PROJECT_DIR$/antiTheftTrackerApp/antiTheftTrackerApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/antiTheftTrackerApp.iml" filepath="$PROJECT_DIR$/.idea/antiTheftTrackerApp.iml" />
     </modules>
   </component>
 </project>

@@ -1,0 +1,38 @@
+{
+  "name": "policies/vault_policy",
+  "applications": [
+    {
+      "packageName": "com.antiTheftTracker.antiTheftTrackerApp",
+      "installType": "FORCE_INSTALLED",
+      "defaultPermissionPolicy": "GRANT",
+      "disabled": true,
+      "delegatedScopes": [
+        "SECURITY_LOGS",
+        "ACTIVATION_APIS"
+      ]
+    }
+  ],
+  "statusBarDisabled": true,
+  "keyguardDisabled": true,
+  "factoryResetDisabled": true,
+  "usbFileTransferDisabled": true,
+  "debuggingFeaturesAllowed": false,
+  "mountPhysicalMediaDisabled": true,
+  "locationMode": "HIGH_ACCURACY",
+  "runtimePermissionPolicy": {
+    "permissionGrants": [
+      {
+        "permission": "android.permission.ACCESS_FINE_LOCATION",
+        "policy": "GRANT"
+      },
+      {
+        "permission": "android.permission.ACCESS_COARSE_LOCATION",
+        "policy": "GRANT"
+      },
+      {
+        "permission": "android.permission.ACCESS_BACKGROUND_LOCATION",
+        "policy": "GRANT"
+      }
+    ]
+  }
+}
